@@ -1,0 +1,30 @@
+Site: https://www.saucedemo.com
+#Teste de sistema de login.
+
+#Login correto e senha correta
+	"Login efetuado com sucesso!"
+	-Acesso aos dashboard
+
+#Login correto e senha incorreta
+	"Usuário ou senha incorretos!"
+	-Sem permissão ao dashboard
+
+#Login incorreto e senha correta
+	"Usuário ou senha incorretos!"
+	-Sem permissão ao dashboard
+
+#Login em branco e senha digitada
+	"Favor digitar usuário e senha!"
+	-Sem permissão ao dashboard
+
+#Login digitado e senha em branco
+	"Favor digitar usuário e senha!"
+	-Sem permissão ao dashboard
+
+#Usuário não possui conta
+	"Criar Nova conta"
+	-Preencher os dados e voltar para tela de login
+
+#Usuário não lembra senha
+	"Esqueci minha senha"
+	-Colocar o email e redefinir senha
