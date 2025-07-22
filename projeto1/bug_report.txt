@@ -1,2 +1,0 @@
-Bug1: Mensagem de erro de login e senha incorretos, está com o quatro do tamanho errado, cortando as palavras ao meio.
-	- PRINT: Pasta evidencias (teste login erro.png)
